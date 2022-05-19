@@ -4,27 +4,24 @@ const backend: ISkill.Skill = {
   category: 'Back-end',
   items: [
     {
-      title: 'Node.js',
+      title: 'Java',
+      level: 3,
+    },
+    {
+      title: 'Kafka',
       level: 3,
     },
     {
       title: 'AWS',
-      level: 3,
-    },
-    {
-      title: 'PHP',
       level: 2,
     },
     {
-      title: 'Java',
-      level: 1,
+      title: 'Spring',
+      level: 2,
     },
+
     {
       title: 'Python',
-      level: 1,
-    },
-    {
-      title: 'C/C++',
       level: 1,
     },
   ],
@@ -34,19 +31,15 @@ const database: ISkill.Skill = {
   category: 'Database',
   items: [
     {
-      title: 'MySQL',
-      level: 3,
-    },
-    {
       title: 'Oracle',
-      level: 2,
+      level: 3,
     },
     {
       title: 'Redis',
       level: 2,
     },
     {
-      title: 'MongoDB',
+      title: 'MySQL',
       level: 1,
     },
   ],
@@ -56,10 +49,6 @@ const frontend: ISkill.Skill = {
   category: 'Front-end',
   items: [
     {
-      title: 'Next.js',
-      level: 2,
-    },
-    {
       title: 'React.js',
       level: 2,
     },
@@ -68,8 +57,12 @@ const frontend: ISkill.Skill = {
       level: 2,
     },
     {
+      title: 'Next.js',
+      level: 1,
+    },
+    {
       title: 'HTML/CSS',
-      level: 2,
+      level: 1,
     },
   ],
 };
@@ -101,7 +94,7 @@ const etc: ISkill.Skill = {
 const skill: ISkill.Payload = {
   disable: false,
   skills: [backend, database, frontend, etc],
-  tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
+  tooltip: '1: 개념 이해 및 기초 수준 \n2: Prototype 개발 수준\n3: Production 개발 가능 수준',
 };
 
 export default skill;
