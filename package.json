@@ -16,8 +16,7 @@
     "postexport": "node shellwork.js",
     "clean": "npx rimraf docs .next",
     "lint": "eslint \"component/**/*\" \"pages/**/*\" \"payload/**/*\" \"*.ts\" --fix",
-    "typedoc": "typedoc --excludeExternals",
-    "deploy": "npm run build && npm run export"
+    "typedoc": "typedoc --excludeExternals"
   },
   "homepage": "https://uyu423.github.io/resume-nextjs",
   "repository": {
