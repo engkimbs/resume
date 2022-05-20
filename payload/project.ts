@@ -6,7 +6,6 @@ const project: IProject.Payload = {
     {
       title: 'Samsung Electronics iEES Data pipeline ',
       startedAt: '2018-08',
-      endedAt: '2022-01',
       where: 'Samsung SDS',
       descriptions: [
         {
@@ -28,7 +27,7 @@ const project: IProject.Payload = {
       ],
     },
     {
-      title: 'Samsung Electroncis SPC system',
+      title: 'Samsung Electronics SPC system',
       startedAt: '2020-03',
       where: 'Samsung SDS',
       descriptions: [
